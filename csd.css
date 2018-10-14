@@ -1,0 +1,143 @@
+ body{
+      background-color: #ccc;
+      margin-top:20px;
+      font-family: helvetica,arial,sans-serif ;
+ background: rgb(225,255,255); /* Old browsers */
+ background: -webkit-linear-gradient(rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%);
+ background: -moz-linear-gradient(rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%);
+ background: -o-linear-gradient(rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%);
+ background: linear-gradient(rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
+  margin-left: auto;
+    margin-right:auto;
+     
+ }
+#wrapper{
+    margin-left: auto;
+    margin-right:auto;
+    //background-color: lightgrey;
+    width:980px;
+    //height:800px;
+}
+
+#header{
+    width:100%;
+    height:200px;
+    background-color:green;
+    background-image: url("https://www.freewebheaders.com/wordpress/wp-content/gallery/funny/amazing-3-funny-monkeys-header.jpg")
+   
+    
+}
+#footer{
+    
+    height:30px;
+    margin-left: auto;
+    margin-right: auto;
+    width:980px;
+    font-size:12px;
+    color:#FFF;
+    margin-top: 17px;
+    text-align: center;
+    
+    
+}
+#top-menu{
+    width:64%;
+    height:30px;
+    background-color: pink;
+    color: darkred;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:  calibri;
+    padding-top: 3px;
+    padding-bottom: 11px;
+    margin-left: 275px
+  
+}
+    
+    
+   
+    
+    
+    
+
+
+#top-menu ul{
+    margin:0px;
+    text-decoration: none;
+ 
+}
+#top-menu ul li{
+    list-style-type: none;
+    float: left;
+     
+     margin-left: 30px;
+     padding-bottom: 10px;
+     
+     
+     
+     
+    
+     
+    
+
+
+}
+#top-menu a:hover{color:#bada55}
+#top-menu a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #444;
+    
+    
+   top:0px;
+}
+    #top-menu:hover::before{
+        width: 100px;
+    }
+    
+
+#content{
+    width:98%;
+    //height:600px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    overflow-y: auto;
+    margin-left: px;
+    margin-right:78px;
+    
+    
+}
+
+#content article{background-color: #eee6ff;
+                border-bottom: 1px dotted #4d004d;
+                margin-bottom:20px;
+    
+}
+#content h1{
+    color:#000066;
+}
+.shadow{box-shadow: 0px 0px 27px #bada55;
+        
+}
+
+.shadow-menu{box-shadow: 0px 0px 97px blue;
+}
+.container{
+    width:60px;
+    height: 60px;
+    margin:0 auto;
+    margin-left: 290px;
+    margin-right:90px;
+    background:url("https://theloveforhistory.files.wordpress.com/2011/06/tattoo_art_tudor_rose-333px1.png?w=300");
+    background-size: contain;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
